@@ -1,5 +1,5 @@
 <template>
-    <div class="item">
+    <div class="forum-card">
         <div class="details">
           <h3>
             <slot name="title"></slot>
