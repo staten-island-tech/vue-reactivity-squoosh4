@@ -6,6 +6,10 @@
           </h3>
           <slot></slot>
         </div>
+        <div class="buttons">
+          <button class="like-button"></button>
+          <button class="favorite-button"></button>
+        </div>
     </div>
 </template>
 
