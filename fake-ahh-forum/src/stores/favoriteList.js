@@ -1,0 +1,1 @@
+const likedPosts = reactive([]);
