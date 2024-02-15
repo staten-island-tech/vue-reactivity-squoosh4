@@ -1,3 +1,9 @@
+<script>
+    export default {
+        
+    }
+</script>
+
 <template>
     <div class="forum-card">
         <div class="details">
@@ -7,17 +13,11 @@
           <slot></slot>
         </div>
         <div class="buttons">
-          <button class="like-button"></button>
-          <button class="favorite-button"></button>
+          <button class="like-button" @click="addToLikeList"></button>
+          <button class="favorite-button" @click="addToFavoriteList"></button>
         </div>
     </div>
 </template>
-
-<script>
-    export default {
-        
-    }
-</script>
 
 <style lang="scss" scoped>
 
