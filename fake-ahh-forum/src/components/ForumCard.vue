@@ -1,6 +1,10 @@
 <script>
-    export default {
-        
+    function addToLikeList() {
+
+    }
+
+    function addToFavoriteList() {
+
     }
 </script>
 
