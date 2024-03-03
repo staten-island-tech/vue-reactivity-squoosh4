@@ -1,6 +1,13 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+      <p>
+        <h1>account page</h1>
+        <br>
+        <h2>you</h2>
+        <h4>@yourself</h4>
+        <br>
+        yip yap yip yap yip yap yap
+    </p>
   </div>
 </template>
 

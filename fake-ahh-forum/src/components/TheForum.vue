@@ -1,7 +1,7 @@
 <script setup>
 import ForumCard from './ForumCard.vue'
 
-const posts
+
 </script>
 
 <template>
@@ -10,4 +10,9 @@ const posts
 
     {{ body }}
   </ForumCard>
+</template>
+
+
+<template>
+  <DestCard v-for="post in posts" :key="destination.name" :Destination="destination"/>
 </template>

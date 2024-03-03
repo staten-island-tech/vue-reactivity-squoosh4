@@ -16,9 +16,10 @@
           </h3>
           <slot></slot>
         </div>
+        <slot name="image"></slot>
         <div class="buttons">
-          <button class="like-button" @click="addToLikeList"></button>
-          <button class="favorite-button" @click="addToFavoriteList"></button>
+          <button class="like-button" @click="addToLikeList">👍</button>
+          <button class="favorite-button" @click="addToFavoriteList">💖💞💕</button>
         </div>
     </div>
 </template>
