@@ -1,8 +1,7 @@
 <script setup>
 import ForumCard from './ForumCard.vue'
 import forumPosts from "../stores/posts.js"
-import favoritePosts from "../stores/favoriteList.js"
-import likedPosts from "../stores/likeList.js"
+
 
 function addToLikeList() {
 
@@ -19,15 +18,11 @@ function addToFavoriteList(id) {
 </script>
 
 <template>
-  <ForumCard v-for="post in forumPosts">
+  <ForumCard v-for="post in forumPosts" :key="post.id">
     <template #title>{{ post.title }}</template>
 
     {{ post.body }}
 
-    <div class="buttons" v-bind="{id: post.id}">
-          <button class="like-button" @click="addToLikeList">👍</button>
-          <button class="favorite-button" @click="addToFavoriteList">💖💞💕</button>
-    </div>
   </ForumCard>
 </template>
 
