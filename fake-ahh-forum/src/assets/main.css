@@ -1,0 +1,25 @@
+.post-container {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.like-list-holder {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.favorite-list-holder {
+
+}
+
+
+.forum-card {
+    width: 100%;
+    height: fit-content;
+}

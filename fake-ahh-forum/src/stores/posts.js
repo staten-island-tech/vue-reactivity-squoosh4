@@ -1,4 +1,4 @@
-export const forumPosts = [
+const forumPosts = [
 
     {
 
@@ -52,3 +52,5 @@ export const forumPosts = [
     */
 
 ];
+
+export default forumPosts;
