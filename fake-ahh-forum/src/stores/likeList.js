@@ -1,1 +1,1 @@
-const favoritePosts = reactive([]);
+const likedPosts = reactive([]);
