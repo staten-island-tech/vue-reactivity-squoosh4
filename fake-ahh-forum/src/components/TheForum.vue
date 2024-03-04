@@ -65,7 +65,7 @@ function favoritePostChecker() {
     </div>
     <div class="favorite-list-holder">
       <h2>favorite posts </h2>
-      <ForumCard v-for="post in favoritePostChecker":key="post.id + 6">
+      <ForumCard v-for="post in favoritePostChecker" :key="post.id + 6">
       <template #title>{{ post.title }}</template>
 
         {{ post.body }}
