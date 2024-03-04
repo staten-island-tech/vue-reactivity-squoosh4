@@ -21,6 +21,7 @@ export const forumPosts = [
         id: 3
 
     },
+    /*
     {
 
         title: "",
@@ -48,5 +49,6 @@ export const forumPosts = [
         body: "",
         id: 7
     }
+    */
 
 ];

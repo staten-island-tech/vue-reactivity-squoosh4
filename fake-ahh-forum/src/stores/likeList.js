@@ -1,3 +1,4 @@
 import { reactive } from "vue";
 
-export const likedPosts = reactive([]);
+const likedPosts = reactive([0, 0, 0]);
+export default likedPosts;
