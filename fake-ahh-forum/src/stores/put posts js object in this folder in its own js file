@@ -1,0 +1,53 @@
+import { reactive } from 'vue'
+
+export const posts = reactive([
+  {
+    //kh2 glaze
+    title: "",
+    body: "",
+    image: "",
+
+  },
+  {
+    //bigotry
+    title: "",
+    body: "",
+    image: "",
+
+  },
+  {
+    //ai art
+    title: "",
+    body: "",
+    image: "",
+
+  },
+  {
+    //x thing is problematic (no it isnt)
+    title: "",
+    body: "",
+    image: "",
+
+  },
+  {
+    //artist did a cool
+    title: "",
+    body: "",
+    image: "",
+
+  },
+  {
+    //richard yap
+    title: "",
+    body: "",
+    image: "",
+
+  },
+  {
+    //rylan yap
+    title: "",
+    body: "",
+    image: "",
+
+  }
+])
